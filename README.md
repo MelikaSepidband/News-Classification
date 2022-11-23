@@ -32,4 +32,6 @@ calculate_log_prior : calculates log likelihood of each category.
 
 predict : gets a string and calculates the probability of being in each category and returns the most probable category.  
 
-evaluate : gets a data and returns Accuracy, Precision, Recall and F1_score of the prediction.
+evaluate : gets a data and returns Accuracy, Precision, Recall and F1_score of the prediction.  
+
+We used 100 first samples of the test data for evaluation.
