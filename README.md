@@ -10,7 +10,7 @@ read_data : Concatening "title" and "text" of the news to a new column = "input"
 
 plot_distribution : shows the distribution of categories in news data in a diagram.  
 
-clean_text : deleting characters that are not main characters, replace numbers with "N".  
+clean_text : deleting characters that are not main characters and replace numbers with "N".  
 
 count_words : returns a dictinary of tokens and their frequencies.  
 
